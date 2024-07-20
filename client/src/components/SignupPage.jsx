@@ -11,8 +11,6 @@ const SignupPage = () => {
     const [name, setName] = useState("");
     const [password, setPassword] = useState("");
     const [visible, setVisible] = useState(false);
-    const [avatar, setAvatar] = useState(null);
-    const [avatarPreview, setAvatarPreview] = useState(null); 
 
     const handleSubmit = async (e) => {
         e.preventDefault();
